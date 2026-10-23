@@ -20,7 +20,7 @@ const DashboardHome = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(name, email, password)
+    // console.log(name, email, password)
     localStorage.setItem("Name", name)
     localStorage.setItem("Email", email)
     localStorage.setItem("Password", password)
